@@ -1,7 +1,7 @@
 # RBE502Project
 Make sure you have installed ROS Indigo <br />
 Ubuntu 14.04 <br />
-Crate a catkin_ws <br />
+Create a catkin_ws <br />
 copy the content inside catkin_ws from git's folder catkin_ws <br />
 go inside catkin_ws <br />
 ```
