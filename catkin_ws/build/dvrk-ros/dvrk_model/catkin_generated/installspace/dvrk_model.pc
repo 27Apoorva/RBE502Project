@@ -1,0 +1,8 @@
+prefix=/home/apoorva/catkin_ws/install
+
+Name: dvrk_model
+Description: Description of dvrk_model
+Version: 1.1.0
+Cflags: 
+Libs: -L/home/apoorva/catkin_ws/install/lib 
+Requires: 

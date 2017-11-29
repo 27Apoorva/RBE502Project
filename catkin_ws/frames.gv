@@ -1,0 +1,26 @@
+digraph G {
+"map" -> "wheel_odom"[label="Broadcaster: /slam_gmapping\nAverage rate: 20.800 Hz\nMost recent transform: 132.291 ( -0.025 sec old)\nBuffer length: 1.250 sec\n"];
+"base_link" -> "chassis"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 100.471 Hz\nMost recent transform: 132.766 ( -0.500 sec old)\nBuffer length: 1.274 sec\n"];
+"base_link" -> "camera_link"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 100.471 Hz\nMost recent transform: 132.766 ( -0.500 sec old)\nBuffer length: 1.274 sec\n"];
+"base_link" -> "hokuyo"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 100.471 Hz\nMost recent transform: 132.766 ( -0.500 sec old)\nBuffer length: 1.274 sec\n"];
+"base_link" -> "imu_link"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 100.471 Hz\nMost recent transform: 132.766 ( -0.500 sec old)\nBuffer length: 1.274 sec\n"];
+"base_link" -> "side_camera_link"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 100.471 Hz\nMost recent transform: 132.766 ( -0.500 sec old)\nBuffer length: 1.274 sec\n"];
+"left_front_axle_carrier" -> "left_front_wheel"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 61.111 Hz\nMost recent transform: 132.256 ( 0.010 sec old)\nBuffer length: 1.260 sec\n"];
+"left_steering_link" -> "left_front_axle_carrier"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 61.111 Hz\nMost recent transform: 132.256 ( 0.010 sec old)\nBuffer length: 1.260 sec\n"];
+"chassis" -> "left_steering_link"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 61.111 Hz\nMost recent transform: 132.256 ( 0.010 sec old)\nBuffer length: 1.260 sec\n"];
+"left_rear_axle_carrier" -> "left_rear_wheel"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 61.111 Hz\nMost recent transform: 132.256 ( 0.010 sec old)\nBuffer length: 1.260 sec\n"];
+"chassis" -> "left_rear_axle_carrier"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 61.111 Hz\nMost recent transform: 132.256 ( 0.010 sec old)\nBuffer length: 1.260 sec\n"];
+"right_front_axle_carrier" -> "right_front_wheel"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 61.111 Hz\nMost recent transform: 132.256 ( 0.010 sec old)\nBuffer length: 1.260 sec\n"];
+"right_steering_link" -> "right_front_axle_carrier"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 61.111 Hz\nMost recent transform: 132.256 ( 0.010 sec old)\nBuffer length: 1.260 sec\n"];
+"chassis" -> "right_steering_link"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 61.111 Hz\nMost recent transform: 132.256 ( 0.010 sec old)\nBuffer length: 1.260 sec\n"];
+"right_rear_axle_carrier" -> "right_rear_wheel"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 61.111 Hz\nMost recent transform: 132.256 ( 0.010 sec old)\nBuffer length: 1.260 sec\n"];
+"chassis" -> "right_rear_axle_carrier"[label="Broadcaster: /autorally_platform/autoRally_state_publisher\nAverage rate: 61.111 Hz\nMost recent transform: 132.256 ( 0.010 sec old)\nBuffer length: 1.260 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 132.266"[ shape=plaintext ] ;
+ }->"map";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 132.266"[ shape=plaintext ] ;
+ }->"base_link";
+}

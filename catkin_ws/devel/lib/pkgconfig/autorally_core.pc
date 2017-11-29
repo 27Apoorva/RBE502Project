@@ -1,0 +1,8 @@
+prefix=/home/apoorva/catkin_ws/devel
+
+Name: autorally_core
+Description: Description of autorally_core
+Version: 0.2.4
+Cflags: -I/home/apoorva/catkin_ws/devel/include -I/home/apoorva/catkin_ws/src/autorally/autorally_core/include
+Libs: -L/home/apoorva/catkin_ws/devel/lib -lSerialSensorInterface -lDiagnostics -lRingBuffer
+Requires: roscpp rospy std_msgs geometry_msgs sensor_msgs nav_msgs image_transport autorally_msgs

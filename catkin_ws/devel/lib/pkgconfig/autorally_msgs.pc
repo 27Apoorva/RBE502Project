@@ -1,0 +1,8 @@
+prefix=/home/apoorva/catkin_ws/devel
+
+Name: autorally_msgs
+Description: Description of autorally_msgs
+Version: 0.2.4
+Cflags: -I/home/apoorva/catkin_ws/devel/include
+Libs: -L/home/apoorva/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/apoorva/catkin_ws/install
+
+Name: autorally_navigation
+Description: Description of autorally_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/apoorva/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/apoorva/catkin_ws/install
+
+Name: imu_3dm_gx4
+Description: Description of imu_3dm_gx4
+Version: 0.0.4
+Cflags: -I/home/apoorva/catkin_ws/install/include
+Libs: -L/home/apoorva/catkin_ws/install/lib 
+Requires: message_runtime geometry_msgs sensor_msgs
