@@ -1090,6 +1090,9 @@ genpy_DIR:PATH=/opt/ros/indigo/share/genpy/cmake
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/indigo/share/geometry_msgs/cmake
 
+//Dependencies for the target
+gridfastslam_LIB_DEPENDS:STATIC=general;scanmatcher;general;sensor_range;
+
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/apoorva/catkin_ws/build/gtest
 
@@ -1152,6 +1155,12 @@ msvc_bridge_LIB_DEPENDS:STATIC=
 nav_msgs_DIR:PATH=/opt/ros/indigo/share/nav_msgs/cmake
 
 //Value Computed by CMake
+navigation_multi_BINARY_DIR:STATIC=/home/apoorva/catkin_ws/build/navigation_multi
+
+//Value Computed by CMake
+navigation_multi_SOURCE_DIR:STATIC=/home/apoorva/catkin_ws/src/navigation_multi
+
+//Value Computed by CMake
 navigation_stage_BINARY_DIR:STATIC=/home/apoorva/catkin_ws/build/navigation_tutorials/navigation_stage
 
 //Value Computed by CMake
@@ -1171,6 +1180,12 @@ odometry_publisher_tutorial_BINARY_DIR:STATIC=/home/apoorva/catkin_ws/build/navi
 
 //Value Computed by CMake
 odometry_publisher_tutorial_SOURCE_DIR:STATIC=/home/apoorva/catkin_ws/src/navigation_tutorials/odometry_publisher_tutorial
+
+//Value Computed by CMake
+openslam_gmapping_BINARY_DIR:STATIC=/home/apoorva/catkin_ws/build/openslam_gmapping
+
+//Value Computed by CMake
+openslam_gmapping_SOURCE_DIR:STATIC=/home/apoorva/catkin_ws/src/openslam_gmapping
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
@@ -1232,8 +1247,20 @@ rqt_gui_DIR:PATH=/opt/ros/indigo/share/rqt_gui/cmake
 //The directory containing a CMake configuration file for rqt_gui_py.
 rqt_gui_py_DIR:PATH=/opt/ros/indigo/share/rqt_gui_py/cmake
 
+//Dependencies for the target
+scanmatcher_LIB_DEPENDS:STATIC=general;sensor_range;general;utils;
+
+//Dependencies for target
+sensor_base_LIB_DEPENDS:STATIC=
+
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
+
+//Dependencies for the target
+sensor_odometry_LIB_DEPENDS:STATIC=general;sensor_base;
+
+//Dependencies for the target
+sensor_range_LIB_DEPENDS:STATIC=general;sensor_base;
 
 //Value Computed by CMake
 simple_navigation_goals_tutorial_BINARY_DIR:STATIC=/home/apoorva/catkin_ws/build/navigation_tutorials/simple_navigation_goals_tutorial
@@ -1267,6 +1294,9 @@ tf2_ros_DIR:PATH=/opt/ros/indigo/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for tf.
 tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
+
+//Dependencies for target
+utils_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 vicon_bridge_BINARY_DIR:STATIC=/home/apoorva/catkin_ws/build/vicon_bridge
@@ -1389,7 +1419,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=39
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=48
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

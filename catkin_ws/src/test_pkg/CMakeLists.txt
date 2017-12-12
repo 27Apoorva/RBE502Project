@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
 tf
+kobuki_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -192,4 +193,6 @@ include_directories(
 add_executable(test_script src/test_script.cpp)
 target_link_libraries(test_script ${catkin_LIBRARIES})
 add_dependencies(test_script test_pkg_generate_messages_cpp)
+
+
 

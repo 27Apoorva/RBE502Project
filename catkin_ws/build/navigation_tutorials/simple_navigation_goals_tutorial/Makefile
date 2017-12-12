@@ -150,48 +150,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule:
-	cd /home/apoorva/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
-.PHONY : navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-move_base_msgs_generate_messages_cpp: navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
-.PHONY : move_base_msgs_generate_messages_cpp
-
-# fast build rule for target.
-move_base_msgs_generate_messages_cpp/fast:
-	cd /home/apoorva/catkin_ws/build && $(MAKE) -f navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
-.PHONY : move_base_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule:
-	cd /home/apoorva/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
-.PHONY : navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-move_base_msgs_generate_messages_lisp: navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
-.PHONY : move_base_msgs_generate_messages_lisp
-
-# fast build rule for target.
-move_base_msgs_generate_messages_lisp/fast:
-	cd /home/apoorva/catkin_ws/build && $(MAKE) -f navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
-.PHONY : move_base_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule:
-	cd /home/apoorva/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
-.PHONY : navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-move_base_msgs_generate_messages_py: navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
-.PHONY : move_base_msgs_generate_messages_py
-
-# fast build rule for target.
-move_base_msgs_generate_messages_py/fast:
-	cd /home/apoorva/catkin_ws/build && $(MAKE) -f navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
-.PHONY : move_base_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/simple_navigation_goals.dir/rule:
 	cd /home/apoorva/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/simple_navigation_goals.dir/rule
 .PHONY : navigation_tutorials/simple_navigation_goals_tutorial/CMakeFiles/simple_navigation_goals.dir/rule
@@ -240,9 +198,6 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... move_base_msgs_generate_messages_cpp"
-	@echo "... move_base_msgs_generate_messages_lisp"
-	@echo "... move_base_msgs_generate_messages_py"
 	@echo "... rebuild_cache"
 	@echo "... simple_navigation_goals"
 	@echo "... test"

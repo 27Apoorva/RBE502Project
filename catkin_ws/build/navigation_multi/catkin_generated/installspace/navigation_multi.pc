@@ -1,0 +1,8 @@
+prefix=/home/apoorva/catkin_ws/install
+
+Name: navigation_multi
+Description: Description of navigation_multi
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/apoorva/catkin_ws/install/lib 
+Requires: 
