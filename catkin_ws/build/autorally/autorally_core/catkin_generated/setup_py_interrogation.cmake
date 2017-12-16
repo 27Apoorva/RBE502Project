@@ -1,6 +1,0 @@
-set(autorally_core_SETUP_PY_VERSION "0.2.4")
-set(autorally_core_SETUP_PY_SCRIPTS "")
-set(autorally_core_SETUP_PY_PACKAGES "systemStatus;chronyStatus")
-set(autorally_core_SETUP_PY_PACKAGE_DIRS "src/systemStatus;src/chronyStatus")
-set(autorally_core_SETUP_PY_MODULES "")
-set(autorally_core_SETUP_PY_MODULE_DIRS "")

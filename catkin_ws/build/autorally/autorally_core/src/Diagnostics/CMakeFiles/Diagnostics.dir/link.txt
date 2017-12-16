@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC  -std=c++11 -Wuninitialized -Wall -Wextra   -shared -Wl,-soname,libDiagnostics.so -o /home/apoorva/catkin_ws/devel/lib/libDiagnostics.so CMakeFiles/Diagnostics.dir/Diagnostics.cpp.o 

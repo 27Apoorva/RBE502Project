@@ -1,8 +1,0 @@
-prefix=/home/apoorva/catkin_ws/install
-
-Name: a_star_scripts
-Description: Description of a_star_scripts
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/apoorva/catkin_ws/install/lib 
-Requires: 

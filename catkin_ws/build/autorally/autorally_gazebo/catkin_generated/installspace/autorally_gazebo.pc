@@ -1,8 +1,0 @@
-prefix=/home/apoorva/catkin_ws/install
-
-Name: autorally_gazebo
-Description: Description of autorally_gazebo
-Version: 0.2.4
-Cflags: 
-Libs: -L/home/apoorva/catkin_ws/install/lib 
-Requires: 

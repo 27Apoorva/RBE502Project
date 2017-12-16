@@ -1,8 +1,0 @@
-prefix=/home/apoorva/catkin_ws/install
-
-Name: dvrk_python
-Description: Description of dvrk_python
-Version: 1.4.0
-Cflags: 
-Libs: -L/home/apoorva/catkin_ws/install/lib 
-Requires: rospy

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<!-- autoRallyPlatformRviz.launch
+
+Use RViz to visualize the AutoRally platform.
+
+Arguments:
+    namespace (string, default: autorally_platform)
+        Vehicle namespace.
+
+Copyright (c) 2013 Wunderkammer Laboratory
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<launch>
+
+    <!-- robot_description is used by nodes that publish to joint_states. -->
+    <param name="robot_description" command="$(find xacro)/xacro $(find autorally_description)/urdf/autoRallyPlatform.urdf.xacro"/>
+
+
+  <!-- Read joint positions from a GUI, then publish them to joint_states. -->
+  <!-- send fake joint values
+
+  <node name="autoRally_state_publisher" pkg="robot_state_publisher"
+        type="robot_state_publisher"/>-->
+        <!-- send fake joint values -->
+        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+          <param name="use_gui" value="False"/>
+        </node>
+
+        <!-- Combine joint values -->
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"/>
+
+  <!-- Show in Rviz   -->
+  <!--  <node name="rviz" pkg="rviz" type="rviz"/>-->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find autorally_description)/mapping.rviz"/>
+
+</launch>

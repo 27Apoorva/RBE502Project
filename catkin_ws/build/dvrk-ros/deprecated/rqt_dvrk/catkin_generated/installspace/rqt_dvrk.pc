@@ -1,8 +1,0 @@
-prefix=/home/apoorva/catkin_ws/install
-
-Name: rqt_dvrk
-Description: Description of rqt_dvrk
-Version: 0.0.1
-Cflags: 
-Libs: -L/home/apoorva/catkin_ws/install/lib 
-Requires: 
